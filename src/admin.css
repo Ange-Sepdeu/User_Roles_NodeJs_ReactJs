@@ -1,0 +1,31 @@
+.admin-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: auto;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    max-width: 800px;
+}
+
+.admin-table thead tr {
+    background-color: #327f87;
+    color: #ffffff;
+    text-align: left;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 12px 15px;
+}
+
+.admin-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.admin-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.admin-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
